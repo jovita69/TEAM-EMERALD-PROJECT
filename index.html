@@ -7,7 +7,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
  <meta name="color-scheme" content="dark">
  <script src="https://kit.fontawesome.com/e8765572dc.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="finalproject.css">
   <link rel="import" href="vvip.html">
   <link rel="import" href="vip.html">
   <link rel="import" href="regular.html">
@@ -15,19 +14,28 @@
   <title>Document</title>
 </head>
 <body>
-  <div>
+  <div class="navbar">
     <nav>
       <img src="./images/hotel logo.png" width="150px"  height= "60px" alt="" id="logo">
-      <a href="">Home</a>
+     <div id="mylinks"> <ul>
+      <a href="home" class="active">Home</a>
       <a href="">About</a>
       <a href="">Gallery</a>
-      <a href="">Reservation</a>
+      <a href="">Reservation</a> 
       <a href="h" ><button id="nav-btn">Book Now</button></a>
+    </ul></div>
     </nav>
   </div>
+
+<div >
+<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="Bar"></i>
+</a>
+</div>
   <section class="view">
     <h3 id="welcome">Welcome to <span>E</span>hotel</h3>
-    <p id="find">Find The <span>Best</span> Hotel That</p><p>Guarantee Comfort.</p>
+    <p id="find">Find The <span>Best</span> Hotel That</p><p id="find2">Guarantee Comfort.</p>
           <a href=""><button>Book Now</button></a>
   </section>
   <section>
@@ -110,7 +118,7 @@ Whatever the treatment, your physical, emotional and spiritual needs will be tak
      </p>
    </div>
   </section>
-  <footer>
+  <footer id="footer">
     <div class="detail">
       <div>our hotel has been rated with five stars since 1998. over the past decades, we have offer proficient services to our customers to maximum satisfication.With an emphasis on personal well-being and inner health for our customer.</div>
       <div class="icons">
