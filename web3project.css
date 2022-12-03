@@ -57,12 +57,10 @@ a:hover  {
   font-size: 120px;  
   margin-top: 30px;
 
-#find{
-padding-top: 20px;
-}
+
 }
 .view{
-  background-image: url("./IMAGES/new background image.png");
+  background-image: url("./images/new background image.png");
   background-position: cover;
   background-repeat: no-repeat;
   background-size: cover;
@@ -156,31 +154,33 @@ h5{
   font-weight: 800;
 }
 .vvip{
-  background-image: url("./IMAGES/room\ 3.jpg");
+  background-image: url("./images/room 3.jpg");
   background-size: 500px;
   background-repeat: no-repeat;
   /*height: 1000px;*/
   width: 500px;
   margin-left: 30px;
+  height: 530px
 
   
 }
 .vip{
-  background-image: url("./IMAGES/room2.jpg");
+  background-image: url("./images/img6.png");
   background-size: 500px;
   background-repeat: no-repeat;
-  /*height: 1000px;*/
+  height: 530px;
   width: 500px;
   margin-left: 30px;
   
 }
 .regular{
-  background-image: url("./IMAGES/img1.png");
+  background-image: url("./images/room1.jpg");
 background-size: 500px;
   background-repeat: no-repeat;
  /* height: 1000px;*/
   width: 500px;
   margin-left: 20px;
+  height: 530px;
   
 }
 .service{
