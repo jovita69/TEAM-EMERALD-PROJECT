@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Roboto:wght@100&family=Rubik&display=swap');
+
+body{
+
+font-family: 'Rubik', sans-serif;
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 20px;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+}
+
+.container{
+
+text-align: center;
+
+color: rgb(255, 255, 255);
+
+  box-sizing: 20px;
+
+  border-radius: 30px;
+
+  border: solid;
+
+  width: 600px;
+  height: 600px;
+
+  padding: 50px 30px;
+
+  margin: 100px 0 20px 0;
+
+  background-image: url(./images/unsplash_ZNBQMS7amVo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ }
+
+input{
+
+   border:none;
+
+   width:70%;
+
+   height:45px;
+
+   border-radius: 5px;
+
+ }
+
+button{
+
+  background-color:#FA4A0C;
+
+  width: 150px;
+
+  border-radius: 5px;
+
+  color: black;
+
+  border: none;
+
+  height: 40px;
+  font-size: 20px;
+
+}
+
+button:hover{
+
+  cursor: pointer;
+
+  color: rgba(105, 101, 101, 0.281);
+
+  background-color: #D97770;
+
+}
+
