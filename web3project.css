@@ -109,9 +109,10 @@ a:hover  {
 @media(max-width:716px){
   .view{
     background-size: 1200px;
-    width:400px;
+    width:530px;
     height: 600px;
     text-align: start;
+    background-image: 1400px;
 
   }
 }
@@ -315,7 +316,7 @@ margin-top: 50px;
   footer{
     display: flex;
     flex-direction: column;
-    width: 380px;
+    width: 250px;
     margin: 0;
   }
 }
@@ -355,6 +356,8 @@ text-align: center;
 align-content: center;
 align-items: center;
 
+
+
   
   
 }
@@ -362,8 +365,8 @@ align-items: center;
   #pages{
   display: flex;
   flex-direction: column;
-  width: 300px;
-  position: relative;
+  width: 250px;
+  
 }
 }
 
@@ -372,6 +375,7 @@ align-items: center;
 text-align: center;
 align-content: center;
 margin-left: 30px;
+
   
   
 
