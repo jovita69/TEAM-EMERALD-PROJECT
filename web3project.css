@@ -146,14 +146,14 @@ h4{
   flex-direction: row;
   gap: 40px;
   padding-top: 50px;
-  line-height: 500px;
+  line-height: 50px;
   font-size: 40px;
   margin-left: 60px;
   
 }
-#info{
+/* #info{
   margin: 0 50px 0 50px;
-  line-height:40px;
+  line-height:0px; */
   
   }
 
@@ -303,7 +303,7 @@ button:hover{
 footer{
   display: flex;
   margin-top: 30px;
-  gap: 20px;
+  gap: 30px;
   background-color: 
 #282A3A;
 position: absolute ;
@@ -315,7 +315,7 @@ margin-top: 50px;
   footer{
     display: flex;
     flex-direction: column;
-    width: 1900px;
+    width: 380px;
     margin: 0;
   }
 }
@@ -336,32 +336,43 @@ a:hover{
   
 }
 .detail{
-  margin-top: 40px;
-  line-height: 40px;
-  margin-left: 40px;
+  margin-top: 20px;
+  line-height: 60px;
+  margin-left: 70px;
+  font-size: 30px;
+  margin-right: 60px;
 
 }
 @media(max-width: 760px){
   .detail{
-  margin-right: 10px;
-  margin-left: 60px;
+  margin-right: 20px;
+  width: 300px;
 }
 }
 .page{
   margin: 0 50px 0 50px;
-  margin-left: 200px;
+text-align: center;
+align-content: center;
+align-items: center;
+
+  
   
 }
 @media(max-width: 760px){
   #pages{
   display: flex;
   flex-direction: column;
+  width: 300px;
+  position: relative;
 }
 }
 
 .info{
   margin: 0 50px 0 50px;
-  margin-left: 60px;
+text-align: center;
+align-content: center;
+margin-left: 30px;
+  
   
 
 }
@@ -369,11 +380,23 @@ a:hover{
   #infos{
   display: flex;
   flex-direction: column;
+  width: 300px;
+
 }
 }
 
 .contact{
   margin: 0 50px 0 50px;
-  line-height: 30px;
-  margin-left: 40px;
+  line-height: 40px;
+  align-content: center;
+  text-align: center;
+  font-weight: 100;
+  
 }
+@media  (max-width: 760px){
+  .contact{
+   width: 300px; 
+  }
+}
+  
+
