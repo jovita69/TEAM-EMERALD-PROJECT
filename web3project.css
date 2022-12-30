@@ -78,6 +78,7 @@ a:hover  {
 #welcome{
   font-size: 120px;  
   margin-top: 30px;
+  
 }
 
 .view{
@@ -87,7 +88,10 @@ a:hover  {
   background-size: cover;
   width: 100%
   height: 618px
-  /* backdrop-filter: blur(9px); */
+  background-filter: blur(8px);
+
+  
+  
   text-align: center;
   line-height: 5px;
   padding-top: 40px;
@@ -175,7 +179,7 @@ h4{
     }
   }
 
-  @media (max-width:716px) {
+  @media (max-width: 716px) {
     #find{
       font-size: 43px;
       font-weight:700px;
